@@ -13,8 +13,8 @@ public class Vehiculo {
     // Constructor que recibe el modelo como argumento
     public Vehiculo(String modelo) {
         this.modelo = modelo;
-        this.potencia = 0.0; // Valor por defecto para potencia
-        this.cRuedas = false; // Valor por defecto para tracción a las cuatro ruedas
+        this.potencia = 0.0; 
+        this.cRuedas = false; 
     }
 
     // Método para obtener el modelo
