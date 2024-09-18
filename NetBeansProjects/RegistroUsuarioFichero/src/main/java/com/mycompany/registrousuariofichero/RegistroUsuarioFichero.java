@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class RegistroUsuarioFichero {
 
     public static void main (String[] args) {
-        File user = new File ("usuarios.txt");
+        File user = new File("usuarios.txt");
         
         try {
             if (user.createNewFile()) {
-                System.out.println("Se creo el txt de usuario correctamente");
+                System.out.println("Se creó el archivo de usuario correctamente");
             } else {
                 System.out.println("El archivo ya existe");
             }
@@ -22,15 +22,41 @@ public class RegistroUsuarioFichero {
             e.printStackTrace();
         }
         
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
+        boolean continuar = true;
         
-        agregarUser(scanner);
-        mostrarUsers();
+        while (continuar) {
+            mostrarMenu();
+            int opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir el salto de línea
+
+            switch (opcion) {
+                case 1:
+                    agregarUser(scanner);
+                    break;
+                case 2:
+                    mostrarUsers();
+                    break;
+                case 3:
+                    continuar = false;
+                    break;
+                default:
+                    System.out.println("Opción no válida. Inténtelo de nuevo.");
+            }
+        }
         
         scanner.close();
+        System.out.println("Programa finalizado.");
     }
     
-    private static void agregarUser (Scanner scanner) {
+    private static void mostrarMenu() {
+        System.out.println("Seleccione una opcion:");
+        System.out.println("1. Agregar usuario");
+        System.out.println("2. Mostrar usuarios");
+        System.out.println("3. Salir");
+    }
+
+    private static void agregarUser(Scanner scanner) {
         System.out.println("Introduzca el nombre: ");
         String nombre = scanner.nextLine();
         
@@ -47,9 +73,9 @@ public class RegistroUsuarioFichero {
             bufferedWriter.newLine();
             bufferedWriter.write("Correo: " + correo);
             bufferedWriter.newLine();
-            bufferedWriter.newLine(); //Línea en blanco para separar los registros
+            bufferedWriter.newLine(); // Línea en blanco para separar los registros
         } catch (IOException e) {
-            System.out.println("Ocurrió un error al escribir el archivo" + e.getMessage());
+            System.out.println("Ocurrió un error al escribir el archivo: " + e.getMessage());
         }
     }
     
