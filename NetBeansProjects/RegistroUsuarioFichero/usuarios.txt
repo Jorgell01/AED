@@ -1,0 +1,16 @@
+Nombre: Jonathan
+Edad: 45
+Correo: elwiwi@gmail.com
+
+Nombre: Christopher
+Edad: 9
+Correo: peruano@gmail.com
+
+Nombre: Jorge
+Edad: 18
+Correo: pudeser@gmail.com
+
+Nombre: Nuha
+Edad: 80
+Correo: elcrema@gmail.com
+
