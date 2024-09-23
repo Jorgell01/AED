@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 public class CrearDirectorios {
     public static void main(String[] args) {
         // Especifica la ruta del directorio a crear
-        String rutaDirectorio = "C:\\Users\\Mondongo\\Desktop\\AED\\NetBeansProjects\\CrearDirectorios\\Mondongo2";
+        String rutaDirectorio = "C:\\Users\\Mondongo\\Desktop\\AED\\NetBeansProjects\\CrearDirectorios\\Mondongo";
         
         // Crea un objeto Path a partir de la ruta especificada
         Path directorio = Paths.get(rutaDirectorio);

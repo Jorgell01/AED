@@ -1,0 +1,1 @@
+¡Hola, mundo! Esto es un ejemplo con codificación UTF-8.

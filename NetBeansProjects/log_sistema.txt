@@ -1,0 +1,6 @@
+2024-09-21 10:00:00,Error al iniciar sesión,error
+2024-09-21 10:05:15,Usuario registrado con éxito,informacion
+2024-09-21 10:10:45,Contraseña débil,advertencia
+2024-09-21 10:15:30,Error de conexión,error
+2024-09-21 10:20:50,Correo no verificado,advertencia
+2024-09-21 10:25:00,Cierre de sesión,informacion

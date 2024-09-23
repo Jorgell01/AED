@@ -1,0 +1,8 @@
+Nombre: Wilfredo
+Edad: 56
+Correo: aaaa@ddd.com
+
+Nombre: Ana
+Edad: 55
+Correo: aaaa@nnn.es
+

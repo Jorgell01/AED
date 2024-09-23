@@ -10,15 +10,3 @@ Nombre: Jorge
 Edad: 18
 Correo: pudeser@gmail.com
 
-Nombre: Nuha
-Edad: 80
-Correo: elcrema@gmail.com
-
-Nombre: Tortuga
-Edad: 30
-Correo: tortuga@gmail.com
-
-Nombre: Wilfredo
-Edad: 50
-Correo: uforebufo@gmail.com
-
