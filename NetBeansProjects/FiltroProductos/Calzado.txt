@@ -1,0 +1,2 @@
+103,Zapatos,50.0,Calzado
+105,Sandalias,25.0,Calzado

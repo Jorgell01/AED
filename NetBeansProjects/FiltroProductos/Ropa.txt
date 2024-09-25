@@ -1,0 +1,2 @@
+104,Camisa,30.0,Ropa
+107,Pantalón,40.0,Ropa

@@ -1,0 +1,3 @@
+101,Televisor,500.0,Electrónica
+102,Laptop,700.0,Electrónica
+106,Microondas,150.0,Electrónica
