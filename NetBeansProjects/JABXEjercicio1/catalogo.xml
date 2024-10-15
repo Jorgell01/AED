@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogoLibros>
+    <libros>
+        <anio_publicacion>2005</anio_publicacion>
+        <autor>Brandon Sanderson</autor>
+        <genero>Fantasía</genero>
+        <titulo>Elantris</titulo>
+    </libros>
+</catalogoLibros>
