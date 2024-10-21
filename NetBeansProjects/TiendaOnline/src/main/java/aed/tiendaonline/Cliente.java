@@ -17,7 +17,7 @@ public class Cliente extends Pedidos {
     }
 
     public Cliente(String nombre, String direccion, String productoNombre, double productoPrecio, String productoCategoria, List<Pedidos> pedidos) {
-        super(productoNombre, productoPrecio, productoCategoria, new ArrayList<>(), null);
+        super(productoNombre, productoPrecio, productoCategoria);
         this.nombre = nombre;
         this.direccion = direccion;
         this.pedidos = pedidos;
@@ -40,7 +40,7 @@ public class Cliente extends Pedidos {
     }
 
     @XmlElement
-    public List<Pedido> getPedidos() {
+    public List<Pedidos> getPedidos() {
         return pedidos;
     }
 

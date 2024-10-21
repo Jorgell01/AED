@@ -1,23 +1,23 @@
 package aed.tiendaonline;
 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
-public class Pedidos extends Productos{
+@XmlRootElement
+public class Pedidos extends Productos {
     private List<Productos> productos;
-    private Date realizacion_pedido;
+    private Cliente cliente;
 
     public Pedidos() {
         super();
         this.productos = new ArrayList<>();
     }
 
-    public Pedidos(String nombre, double precio, String categoria, List<Productos> productos, Date realizacion_pedido) {
+    public Pedidos(String nombre, double precio, String categoria) {
         super(nombre, precio, categoria);
-        this.productos = productos;
-        this.realizacion_pedido = realizacion_pedido;
+        this.productos = new ArrayList<>();
     }
 
     @XmlElement
@@ -25,16 +25,16 @@ public class Pedidos extends Productos{
         return productos;
     }
 
-    public void setProductos(List<Productos> productos) {
-        this.productos = productos;
+    public void agregarProducto(Productos producto) {
+        this.productos.add(producto);
     }
 
     @XmlElement
-    public Date getRealizacion_pedido() {
-        return realizacion_pedido;
+    public Cliente getCliente() {
+        return cliente;
     }
 
-    public void setRealizacion_pedido(Date realizacion_pedido) {
-        this.realizacion_pedido = realizacion_pedido;
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
 }

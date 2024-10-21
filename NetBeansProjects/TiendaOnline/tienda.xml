@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tienda>
+    <clientes>
+        <nombre>Manuel</nombre>
+        <precio>0.0</precio>
+        <direccion>Calle Perico</direccion>
+        <pedidos>
+            <categoria>Alimentación</categoria>
+            <nombre>Cereales</nombre>
+            <precio>2.0</precio>
+        </pedidos>
+    </clientes>
+    <pedidos>
+        <categoria>Alimentación</categoria>
+        <nombre>Cereales</nombre>
+        <precio>2.0</precio>
+    </pedidos>
+    <productos>
+        <categoria>Alimentación</categoria>
+        <nombre>Cereales</nombre>
+        <precio>2.0</precio>
+    </productos>
+</tienda>
