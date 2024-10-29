@@ -1,3 +1,5 @@
+package aed;
+
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
@@ -9,9 +11,9 @@ public class LeerGUI extends JFrame {
     private JButton agregarButton, buscarButton, editarButton, eliminarButton, mostrarButton, salirButton;
 
     // Tamaño de los campos
-    private static final int TAMANO_ID = 4; // Tamaño del campo de ID (4 bytes)
+    private static final int TAMANO_ID = 4; // Tamaño del campo de ID (4 bytes para un int)
     private static final int TAMANO_NOMBRE = 40; // Tamaño del campo de nombre (20 caracteres * 2 bytes por carácter)
-    private static final int TAMANO_EDAD = 4; // Tamaño del campo de edad (4 bytes)
+    private static final int TAMANO_EDAD = 4; // Tamaño del campo de edad (4 bytes para un int)
     private static final int TAMANO_REGISTRO = TAMANO_ID + TAMANO_NOMBRE + TAMANO_EDAD;
 
     public LeerGUI() {
@@ -74,12 +76,12 @@ public class LeerGUI extends JFrame {
     }
 
     private void agregarUsuario() {
-        String id = ajustarLongitud(idField.getText(), 4);
+        String id = idField.getText().trim();
         String nombre = ajustarLongitud(nombreField.getText(), 20);
         int edad;
 
         try {
-            edad = Integer.parseInt(edadField.getText());
+            edad = Integer.parseInt(edadField.getText().trim());
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Edad debe ser un número válido.");
             return;
@@ -87,9 +89,9 @@ public class LeerGUI extends JFrame {
 
         try (RandomAccessFile archivo = new RandomAccessFile("usuarios.dat", "rw")) {
             archivo.seek(archivo.length()); // Ir al final del archivo
-            archivo.writeInt(Integer.parseInt(id.trim())); // Guardar ID como int
-            archivo.write(fijarLongitudBytes(nombre, TAMANO_NOMBRE)); // Guardar Nombre
-            archivo.writeInt(edad); // Guardar Edad correctamente
+            archivo.writeInt(Integer.parseInt(id)); // Guardar ID como int
+            archivo.write(fijarLongitudBytes(nombre, TAMANO_NOMBRE)); // Guardar Nombre como bytes
+            archivo.writeInt(edad); // Guardar Edad como int
             displayArea.append("Usuario agregado correctamente.\n");
             limpiarCampos();
         } catch (IOException ex) {

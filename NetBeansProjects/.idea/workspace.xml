@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a0b209e-78a3-48b2-965c-ec6075f6c054" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/MarshallerTienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/MarshallerTienda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Pedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/UnmarshallerTienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/TiendaOnline/src/main/java/aed/tiendaonline/UnmarshallerTienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchivoBinario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ArchivoBinario/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudFicheroBinarioSwing/src/main/java/aed/LeerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/CrudFicheroBinarioSwing/src/main/java/aed/LeerGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrudFicheroBinarioSwing/usuarios.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CrudFicheroBinarioSwing/usuarios.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,22 +17,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2njqPozUOwzSnErO3TDpxYoNyqM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mondongo/Documents/GitHub/AED/NetBeansProjects"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mondongo/Documents/GitHub/AED/NetBeansProjects&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
