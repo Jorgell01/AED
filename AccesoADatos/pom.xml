@@ -26,5 +26,20 @@
       <artifactId>mariadb-java-client</artifactId>
       <version>3.0.3</version>
     </dependency>
+    <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.5</version> <!-- Cambia por la última versión -->
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-jdbc</artifactId>
+      <version>9.0.56</version> <!-- Cambia por la última versión disponible -->
+    </dependency>
+    <dependency>
+      <groupId>com.zaxxer</groupId>
+      <artifactId>HikariCP</artifactId>
+      <version>5.0.1</version> <!-- Reemplaza con la última versión -->
+    </dependency>
   </dependencies>
 </project>
